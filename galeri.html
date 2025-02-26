@@ -149,5 +149,78 @@
         <a href="jurusan.html">JURUSAN</a>
         <a href="kontak.html">HUBUNGI KAMI</a>
     </div>
+<style>
+    .gallery-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 20px;
+    }
+    .gallery-item {
+        text-align: center;
+        width: 250px;
+    }
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+    }
+    .gallery-item img:hover {
+        transform: scale(1.05);
+    }
+    .gallery-item p {
+        margin-top: 8px;
+        font-size: 16px;
+        color: #333;
+        font-family: 'Amiri', serif;
+    }
+</style>
+<div class="gallery-container">
+    <div class="gallery-item">
+        <img src="galeri1.jpg" alt="Santri sedang belajar">
+        <p>Suasana asrama putra di siang hari</p>
+    </div>
+    <div class="gallery-item">
+        <img src="galeri2.jpg" alt="Kegiatan keagamaan">
+        <p>Suasana asrama putra di malam hari</p>
+    </div>
+    <div class="gallery-item">
+        <img src="galeri3.jpg" alt="Suasana asrama santri">
+        <p>Suasana asrama santri</p>
+    </div>
+</div>
 
-<print> ON GOING</print>
+
+
+</style>
+<!-- Footer Copyright -->
+<footer class="footer">
+    <p>© 2025 Pondok Pesantren Tarbiyyatu Wa Da'wah Al-Kautsar. All Rights Reserved.</p>
+</footer>
+
+<style>
+    /* Agar Footer Selalu di Bawah */
+    html, body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-wrapper {
+        flex: 1;
+    }
+
+    .footer {
+background-color: #1C3D14;
+color: white;
+text-align: center;
+padding: 10px 0;  /* Mengurangi padding */
+font-size: 12px;  /* Memperkecil ukuran font */
+font-family: 'Amiri', serif;
+}
+
+</style>

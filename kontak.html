@@ -150,4 +150,62 @@
         <a href="kontak.html">HUBUNGI KAMI</a>
     </div>
 
-<print> ON GOING</print>
+    <!-- Tombol WhatsApp di Tengah -->
+    <div class="whatsapp-container">
+        <a href="https://wa.me/6285693099954" target="_blank">
+            <img src="whatsapp.jpeg" alt="Chat WhatsApp">
+        </a>
+        <p>Hubungi Kami di WhatsApp, Klik Logo di Atas</p>
+    </div>
+
+    <style>
+        /* Posisikan WhatsApp di tengah atas */
+        .whatsapp-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .whatsapp-container img {
+            width: 80px;
+            height: 80px;
+            animation: floatWhatsApp 1.5s infinite alternate;
+        }
+
+        /* Animasi naik turun */
+        @keyframes floatWhatsApp {
+            0% { transform: translateY(0px); }
+            100% { transform: translateY(-10px); }
+        }
+
+        /* Teks di bawah ikon */
+        .whatsapp-container p {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2E5D25;
+            font-family: 'Amiri', serif;
+        }
+
+        /* Efek hover memperbesar ikon */
+        .whatsapp-container a:hover img {
+            transform: scale(1.1);
+        }
+    </style>
+       <!-- Footer Copyright -->
+       <footer class="footer">
+        <p>© 2025 Pondok Pesantren Tarbiyyatu Wa Da'wah Al-Kautsar. All Rights Reserved.</p>
+    </footer>
+
+    <style>
+        /* Gaya Footer */
+        .footer {
+            background-color: #1C3D14;
+            color: white;
+            text-align: center;
+            padding: 5px 0;
+            font-size: 14px;
+            font-family: 'Amiri', serif;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
