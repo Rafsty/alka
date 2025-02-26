@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header Pesantren</title>
+    <title>Pondok Pesantren Alkautsar</title>
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -40,22 +40,28 @@
         .nav {
             background-color: #1C3D14;
             padding: 10px;
-            text-align: center;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            gap: 10px;
         }
         .nav a {
+            background-color: #2E5D25;
             color: white;
             text-decoration: none;
-            margin: 5px 10px;
+            padding: 12px 20px;
             font-size: 16px;
             cursor: pointer;
             font-family: 'Amiri', serif;
-            transition: transform 0.3s ease;
+            transition: all 0.3s ease;
+            border: 2px solid #085c2e; /* Border kotak */
+            border-radius: 8px; /* Membuat bentuk kotak lebih halus */
             display: inline-block;
+            text-align: center;
         }
         .nav a:hover {
+            background-color: #03670d;
+            color: #ffffff;
             transform: translateY(-3px);
         }
         .content {
@@ -85,6 +91,7 @@
             transition: transform 0.3s ease;
             margin-left: auto;
             margin-right: auto;
+            border-radius: 10px;
         }
         .textbox:hover {
             transform: scale(1.05);
@@ -98,9 +105,15 @@
             .logo h1 {
                 font-size: 22px;
             }
+            .nav {
+                flex-direction: column;
+                align-items: center;
+            }
             .nav a {
                 font-size: 14px;
-                margin: 5px;
+                padding: 10px;
+                width: 90%;
+                text-align: center;
             }
             .welcome-text {
                 font-size: 30px;
@@ -138,18 +151,30 @@
     </div>
     <div id="profile-content" class="content">
         <h2 class="welcome-text">أهلاً وسهلاً ومرحباً بكم</h2>
-        <div class="textbox">Pondok Pesantren Tarbiyatu Wad Da'wah Al-Kautsar merupakan lembaga yang mengedepankan Akhlak dan Moral, guna membentuk generasi yang berakhlak mulia, berilmu, bertanggung jawab, serta terampil dan handal sehingga menjadi generasi Islam yang unggul.</div>
+        <div class="textbox">TENTANG AL-KAUTSAR<br>
+            Pondok Pesantren Tarbiyatu Wad Da'wah Al-Kautsar merupakan lembaga yang mengedepankan Akhlak dan Moral, guna membentuk generasi yang berakhlak mulia, berilmu, bertanggung jawab, serta terampil dan handal sehingga menjadi generasi Islam yang unggul.</div>
         <div class="textbox">VISI<br>
-            Menjadi pusat pendidikan yang unggul dalam pembentukan karakter, mengedepankan akhlak dan moral, untuk membentuk generasi yang berakhlak mulia, berilmu, bertanggung jawab, serta terampil dan handal sehingga mampu menjadi pemimpin yang islami dan berkontribusi positif bagi masyarakat dan bangsa</div>
-        <div class="textbox">MISI<br>
-            <ul style="text-align: left;">
-                <li>Menanamkan akhlak mulia dan menerapkan nilai-nilai islami dalam kehidupan sehari-hari santri.</li>
-                <li>Menerapkan kurikulum Pondok Pesantren Modern dan Kurikulum Merdeka dalam mengembangkan keilmuan para santri pada bidang akademik.</li>
-                <li>Membentuk karakter bertanggung jawab terhadap diri sendiri, lingkungan, dan massyarakat dengan memberikan contoh positif melalui kegiatan-kegiatan praktis dan pengalaman belajar.</li>
-                <li>Menyelenggarakan program pembelajaran yang berorientasi pada pengembangan keterampilan dan keahlian praktis sehingga siswa siap menghadapi tantangan dunia kerja dan dapat berkontribusi secara nyata di masyarakat.</li>
-                <li>Mengajarkan dan mendukung pengembangan pemahaman yang mendalam tentang nilai-nilai islami serta memotivasi siswa untuk menjadi pemimpin yang berintegritas demi kemajuan umat dan bangsa.</li>
-            </ul>
-        </div>
+            Menjadi pusat pendidikan yang unggul dalam pembentukan karakter, mengedepankan akhlak dan moral, untuk membentuk generasi yang berakhlak mulia, berilmu, bertanggung jawab, serta terampil dan handal sehingga mampu menjadi pemimpin yang islami dan berkontribusi positif bagi masyarakat dan bangsa.</div>
+            <div class="textbox">MISI<br>
+                <ul style="text-align: left;">
+                    <li>Menanamkan akhlak mulia dan menerapkan nilai-nilai islami dalam kehidupan sehari-hari santri.</li>
+                    <li>Menerapkan kurikulum Pondok Pesantren Modern dan Kurikulum Merdeka dalam mengembangkan keilmuan para santri pada bidang akademik.</li>
+                    <li>Membentuk karakter bertanggung jawab terhadap diri sendiri, lingkungan, dan masyarakat dengan memberikan contoh positif melalui kegiatan-kegiatan praktis dan pengalaman belajar.</li>
+                    <li>Menyelenggarakan program pembelajaran ya5ng berorientasi pada pengembangan keterampilan dan keahlian praktis sehingga siswa siap menghadapi tantangan dunia kerja dan dapat berkontribusi secara nyata di masyarakat.</li>
+                    <li>Mengajarkan dan mendukung pengembangan pemahaman yang mendalam tentang nilai-nilai islami serta memotivasi siswa untuk menjadi pemimpin yang berintegritas demi kemajuan umat dan bangsa.</li>
+                </ul>
+            </div>
+            
+            <div class="textbox">PANCA JIWA PONDOK<br>
+                <ul style="text-align: left;">
+                    <li><strong>1. KEIKHLASAN</strong></li>
+                    <li><strong>2. KESEDERHANAAN</strong></li>
+                    <li><strong>3. BERDIKARI</strong></li>
+                    <li><strong>4. UKHUWATU AL ISLAMIYYAH</strong></li>
+                    <li><strong>5. KEBEBASAN</strong></li>
+                </ul>
+            </div>
+            
     </div>
     <div id="biaya-content" class="content"><h2>Informasi Biaya Santri Baru</h2></div>
     <div id="pengajar-content" class="content"><h2>Daftar Pengajar</h2></div>
