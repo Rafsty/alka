@@ -152,24 +152,32 @@
 
 <print> ON GOING</print>
 
-
 </style>
 <!-- Footer Copyright -->
 <footer class="footer">
- <p>© 2025 Pondok Pesantren Tarbiyyatu Wa Da'wah Al-Kautsar. All Rights Reserved.</p>
+    <p>© 2025 Pondok Pesantren Tarbiyyatu Wa Da'wah Al-Kautsar. All Rights Reserved.</p>
 </footer>
 
 <style>
- /* Gaya Footer */
- .footer {
-     background-color: #1C3D14;
-     color: white;
-     text-align: center;
-     padding: 5px 0;
-     font-size: 14px;
-     font-family: 'Amiri', serif;
-     position: fixed;
-     bottom: 0;
-     width: 100%;
- }
+    /* Agar Footer Selalu di Bawah */
+    html, body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-wrapper {
+        flex: 1;
+    }
+
+    .footer {
+background-color: #1C3D14;
+color: white;
+text-align: center;
+padding: 10px 0;  /* Mengurangi padding */
+font-size: 12px;  /* Memperkecil ukuran font */
+font-family: 'Amiri', serif;
+}
+
 </style>
